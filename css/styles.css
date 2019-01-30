@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700");
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  width: 100%;
+  background-image: url("../images/background_top.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  min-height: 600px;
+  color: #fff;
+  padding-bottom: 120px; }
+
+.header-top-row, header-bottom-row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px; }
+
+.logo {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 0 0 30px;
+  box-sizing: border-box; }
+  .logo .logo-text h3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; }
+
+.menu {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0 0;
+  box-sizing: border-box; }
+  .menu nav {
+    width: 100%; }
+
+/* Top and Footer navigation bars */
+ul.main-navigation, .footer-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase; }
+  ul.main-navigation li, .footer-navigation li {
+    display: block;
+    padding: 0 10px; }
+    ul.main-navigation li a, .footer-navigation li a {
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      text-decoration: none; }
+
+ul.main-navigation {
+  justify-content: flex-end; }
+
+ul.footer-navigation {
+  justify-content: center; }
+
+.header-bottom-left, .header-bottom-right {
+  width: 50%; }
+
+.header-bottom-row {
+  display: flex;
+  flex-direction: row; }
+
+.header-bottom-left h3 {
+  text-transform: uppercase; }
+
+.header-bottom-right img {
+  width: 100%;
+  height: auto; }
+
+.header-bottom-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 100; }
+
+.header-bottom-left-content {
+  width: 80%;
+  padding: 30px; }
+  .header-bottom-left-content a {
+    padding: 7px 12px;
+    border-radius: 8px;
+    background-color: #81c94b; }
+
+/* Main */
+main {
+  min-height: 400px; }
+
+.tripple {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.tripple-item {
+  width: 30%;
+  padding: 0 20px;
+  box-sizing: border-box; }
+  .tripple-item img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto; }
+  .tripple-item h3 {
+    font-weight: bold;
+    padding-left: 10px; }
+  .tripple-item p {
+    text-align: justify; }
+  .tripple-item p:first-letter {
+    margin-left: 10px; }
+
+.page-content, .our-team {
+  display: flex;
+  justify-content: center; }
+
+.post-content, .post-thumbnail {
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.post-content p {
+  text-align: justify; }
+
+.post-thumbnail img {
+  width: 100%; }
+
+.top-page {
+  flex-direction: row-reverse; }
+  .top-page .post-thumbnail {
+    background-image: url("../images/asset 19.svg");
+    background-repeat: no-repeat;
+    background-position: left; }
+
+.bottom-page {
+  flex-direction: row; }
+
+.partners-section h2 {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,415587+0,4274b1+100 */
+  background: #87e0fd;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #87e0fd 0%, #415587 0%, #4274b1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #87e0fd 0%, #415587 0%, #4274b1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #87e0fd 0%, #415587 0%, #4274b1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#4274b1',GradientType=1 );
+  /* IE6-9 */ }
+  .partners .partner {
+    width: 15%; }
+  .partners img {
+    width: 100%;
+    height: auto; }
+
+.our-team {
+  flex-direction: row-reverse;
+  padding: 70px 0; }
+
+/* Footer */
+footer {
+  width: 100%;
+  background-image: url("../images/background_bottom.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 600px;
+  color: #fff;
+  padding-top: 120px; }
+
+.footer-top {
+  text-align: center; }
+  .footer-top h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold; }
+
+.footer-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.footer-middle-left, .footer-middle-middle, .footer-middle-right {
+  width: 30%; }
+
+.footer-middle-middle h3 {
+  text-align: center; }
+
+ul.footer-social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row; }
+  ul.footer-social-media a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px; }
+  ul.footer-social-media img {
+    width: 100%; }
+
+.copyright {
+  text-align: center;
+  padding-top: 30px; }
+
+@media all and (max-width: 768px) {
+  .header-top-row, .header-bottom-row {
+    flex-direction: column; }
+
+  .logo, .menu {
+    width: 100%; }
+
+  .menu {
+    padding: 0; }
+
+  .header-bottom-left, .header-bottom-right {
+    width: 100%; }
+
+  .header-top-row {
+    padding-bottom: 0; }
+
+  .header-bottom-left-content {
+    width: 100%; }
+
+  ul.main-navigation {
+    flex-direction: column; }
+    ul.main-navigation li {
+      display: block;
+      padding: 0 10px;
+      text-align: center; }
+      ul.main-navigation li a {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        text-decoration: none; }
+
+  .tripple {
+    flex-direction: column; }
+    .tripple .tripple-item {
+      width: 100%; }
+
+  .page-content {
+    display: flex;
+    flex-direction: column; }
+
+  .post-content, .post-thumbnail {
+    width: 100%; }
+
+  .our-team {
+    flex-direction: column; }
+
+  .footer-middle-left, .footer-middle-middle, .footer-middle-right {
+    width: 100%; }
+
+  .footer-middle-left {
+    padding: 20px;
+    box-sizing: border-box; }
+
+  .footer-middle-right {
+    text-align: center; }
+
+  ul.footer-social-media {
+    justify-content: center; }
+
+  .footer-middle {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=styles.css.map */
